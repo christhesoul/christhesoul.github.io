@@ -1,2 +1,5 @@
 name: christhesoul.com
 title: Chris Waters // @christhesoul
+layout: default
+plugins:
+  - jemoji
