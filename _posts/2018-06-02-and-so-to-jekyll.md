@@ -60,8 +60,10 @@ layout: default
 And now as you change your `index.md` file, the Jekyll server will take its contents and inject them into the default template wherever you placed ``{{ content }}``.
 {% endraw %}
 
-Jekyll is pretty neat and relatively simple (if you've already got a Ruby environment set up, you've dabbled with Git and Github Pages, and you can get to grips with Markdown &mdash; so perhaps not simple in the grand scheme of things). And this post just covers the start of it.
+Jekyll is pretty neat and relatively simple (if you've already got a Ruby environment set up, you've dabbled with Git and Github Pages, and you can get to grips with Markdown &mdash; so perhaps not simple in the grand scheme of things).
 
-And hopefully this post is also just the start of this urge to write a little more.
+This post just covers the start of it. The real benefit of this separation of content (markdown) and code (HTML markup) is when you use Jekyll as a blogging platform &mdash; as I intend to do.
+
+Well, hopefully.
 
 :ocean:
