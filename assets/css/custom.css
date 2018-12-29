@@ -1,5 +1,9 @@
 blockquote {
-  border-left-color: #6b069e;
   background: #f7f7f7;
+  border-left-color: #6b069e;
   font-size: 16px;
+}
+
+pre {
+  margin-bottom: 20px;
 }
