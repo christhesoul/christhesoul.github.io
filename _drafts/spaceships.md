@@ -10,6 +10,22 @@ is definitely one of the coolest.
 
 But what does it do?
 
+The `<=>` operator returns 1, 0, or -1 depending on the comparison.
+
+When dealing with Numeric object, this is pretty obvious.
+
+```ruby
+100 <=> 99   # returns 1
+ 99 <=> 99   # returns 0
+ 99 <=> 100  # returns -1
+```
+
+It's less obvious when dealing with Strings.
+
+```ruby
+
+```
+
 To find out, let's go back to the great Oasis vs Blur chart battle of 1995,
 and implement a ridiculously basic class.
 
@@ -37,14 +53,6 @@ ArgumentError (comparison of Song with Song failed)
 
 The reason for this `ArgumentError` is that we haven't told Ruby *how* to
 compare these two songs. Doing so requires us to implement the `<=>` operator.
-
-The `<=>` operator returns 1, 0, or -1 depending on the comparison.
-
-```ruby
-100 <=> 99   # returns 1
- 99 <=> 99   # returns 0
- 99 <=> 100  # returns -1
-```
 
 So let's implement the spaceship operator in our class
 
