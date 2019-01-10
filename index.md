@@ -3,7 +3,7 @@ title: Chris Waters
 layout: default
 ---
 
-Co-founder and Head of Product & Technology at [Staylists](https://www.staylists.com).
+CTO at [Staylists](https://www.staylists.com).
 
 #### Writing
 {%- for post in site.posts %}
