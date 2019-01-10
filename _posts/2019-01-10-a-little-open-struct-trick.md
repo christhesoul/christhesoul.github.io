@@ -46,29 +46,29 @@ Which is okay, and all that. But you're a Rubyist. And so you yearn to write.
 # => "E Street Band"
 ```
 
-But it doesn't. And you are sad.
+But it doesn't work. And you are sad.
 
 ```ruby
 @band.name
 # => NoMethodError: undefined method `name' for #<Hash:0x007f949c030b00>
 ```
 
-So you write a API wrapper to solve all your problems.
+So you write an API wrapper to solve all your problems.
 
 ```ruby
 class Band
-  def initialize(hsh)
-    @name = hsh['name']
-    @musicians = hsh['musicians'].map { |musician| Musician.new(musician) }
+  def initialize(hash)
+    @name = hash['name']
+    @musicians = hash['musicians'].map { |musician| Musician.new(musician) }
   end
 
   attr_reader :name, :musicians
 end
 
 class Musician
-  def initialize(hsh)
-    @name = hsh['name']
-    @instrument = ['instrument']
+  def initialize(hash)
+    @name = hash['name']
+    @instrument = hash['instrument']
   end
 
   attr_reader :name, :instrument
@@ -103,7 +103,7 @@ pet_name_generator.cat
 # => "felix"
 ```
 
-Which is pretty cool. And what's cooler is when we mix it with inheritance.
+Which is pretty cool. And what's cooler is when we inherit from `OpenStruct`.
 
 Because now we can refactor our API wrapper classes into the jaw-droppingly
 simple.
@@ -118,11 +118,14 @@ end
 
 ... nearly!
 
-It's not quite that simple because it's not magic, and it'll blindly assign the
-array of hashes to the `musicians` method. We want an array of Musician objects.
+It's not quite that simple because programming is not magic, and it'll blindly assign the array of hashes to the `musicians` method. We want an array of
+Musician objects.
 
-But that's okay, because it's trivial to overwrite methods and still use the
+But that's okay, because it's trivial to overwrite methods using the
 hash syntax to get the object's original value.
+
+Similarly, you can add your own convenience methods using values retrieved from
+the API.
 
 Like so.
 
@@ -144,8 +147,8 @@ And you can even add a class method to take your JSON.
 
 ```ruby
 class Band < OpenStruct
-  def self.from_json(json)
-    new(JSON.parse(json))
+  def self.from_json(raw_json)
+    new(JSON.parse(raw_json))
   end
 
   def musicians
@@ -164,8 +167,8 @@ Clarence on Saxophone
 # => nil
 ```
 
-So if you're writing an API wrapper, or some other class where it'd be nice to
-coerce a hash into an object and perhaps add a few more methods, then you could
+So if you're writing an API wrapper -- or some other class where it'd be nice to
+coerce a hash into an object and perhaps add a few more methods -- then you could
 do worse than spending a bit of time dabbling with `OpenStruct`.
 
 :ocean:
