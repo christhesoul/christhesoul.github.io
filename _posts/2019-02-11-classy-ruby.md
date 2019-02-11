@@ -37,8 +37,11 @@ Like if `Animal` is an instance of a `Class`, then the logical conclusion
 is that a **class method** is really just an instance method
 on the `Class` object.
 
-But **that's impossible** because every user defined class is an instance of the
-`Class` object, and so there'd be all kinds of naming collisions.
+But **that's impossible**, right? Because if every user-defined class would be
+an instance of the `Class` object, every class method must be instance method on
+`Class` itself. there'd be all kinds of naming collisions.
+
+Yeah, that's not what's happening.
 
 So how the devil does Ruby define a class method?
 
@@ -46,7 +49,7 @@ So how the devil does Ruby define a class method?
 
 Enter the conceptual minefield of *metaclasses*.
 
-You see, it turns out that when we define our Animal class (that initializes
+You see, it turns out that when we define our `Animal` class (that initializes
 a new instance of `Class`), we also get a magical *second* object that is the
 *singleton class* of `Animal`.
 
@@ -75,3 +78,21 @@ Animal.class # => Class
 Animal.singleton_class # => #<Class:Animal>
 Animal.singleton_class.instance_methods.grep(/count/) # => [:count]
 ```
+
+![doors](https://media.giphy.com/media/l4Ki4tqdPaBWaVDY4/giphy-downsized.gif)
+
+Doing some of this stuff, and poking around in an `irb` session was humbling.
+It made me realise how little I knew about a language I thought I had a decent
+grasp of. But the joy of learning is that it always comes with the promise of
+another season.
+
+:pray:
+
+And so I have heaps of gratitude for the following wonderful things on the
+internet:
+
+1. [The Case of the Missing Method](https://www.youtube.com/watch?v=mn2D_k-X-es) –
+a talk by [Nadia Odunayo](https://twitter.com/nodunayo)
+2. [Ruby has no Class Methods](https://dev.to/edisonywh/ruby-has-no-class-methods-39l5) – an article by [Edison Yap](https://twitter.com/edisonywh)
+
+:ocean:
