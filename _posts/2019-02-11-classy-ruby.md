@@ -39,7 +39,9 @@ on the `Class` object.
 
 But **that's impossible**, right? Because if every user-defined class would be
 an instance of the `Class` object, every class method must be instance method on
-`Class` itself. there'd be all kinds of naming collisions.
+`Class` itself! There'd be all kinds of naming collisions.
+
+![panic](https://media.giphy.com/media/HUkOv6BNWc1HO/giphy-downsized.gif)
 
 Yeah, that's not what's happening.
 
