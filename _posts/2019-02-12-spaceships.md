@@ -48,7 +48,7 @@ What's more, case matters. `b` is greater than `G` (as `A..Za..z` is the logical
 way to approach this).
 
 ```ruby
-"boys" <=> "Girls" # returns -1 ("boys" wins)
+"boys" <=> "Girls" # returns 1 ("boys" wins)
 ```
 
 And you can put all this together by using `Array#sort` because under the hood
