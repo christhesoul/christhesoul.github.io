@@ -1,23 +1,16 @@
 ---
 title: Chris Waters
-layout: default
+layout: home
 ---
 
-CTO at [Staylists](https://www.staylists.com).
+The above is a Kent Beck quote that continues to resonate.
 
-#### Writing
-{%- for post in site.posts %}
-  * [{{ post.title }}]({{ post.url }})  
-{%- endfor %}
+Web-based software products (my career and continued fascination) change all the time. Partly because they can, and mostly because life happens to the businesses that build them: new customers, technology, regulations, and trends – all bringing their own picnic of demands, quirks, and problems.
 
-#### Gifs
-I like this one a lot:
+But before you make changes, you've got to understand how the code is executing right now.
 
-![potatocat](https://media.giphy.com/media/fdS8al30MFz8Z2416E/giphy-downsized.gif)
+# Bad code makes you feel like you need to understand everything to understand anything.
 
-#### Around the web
-* [medium.com/@christhesoul](https://medium.com/@christhesoul)  
-* [twitter.com/christhesoul](https://twitter.com/christhesoul)  
-* [instagram.com/christhesoul](https://instagram.com/christhesoul)  
-* [github.com/christhesoul](https://github.com/christhesoul)  
-* [linkedin.com/in/christhesoul](https://www.linkedin.com/in/christhesoul)
+(That's a Sandi Metz quote. She's the finest teacher I've ever had. Thanks Youtube.)
+
+Programmers spend more time reading code than writing code. So it's critical that the code we write is easy to read.

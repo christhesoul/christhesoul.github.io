@@ -1,11 +1,33 @@
+p {
+  line-height: 20px;
+}
+
 blockquote {
   background: #f7f7f7;
-  border-left-color: #6b069e;
+  border-left: 3px solid #6b069e;
   font-size: 16px;
+  margin: 0;
+  padding: 5px 25px;
+}
+
+blockquote > p {
+  font-size: 22px;
+  line-height: 28px;
 }
 
 pre {
-  margin-bottom: 20px;
+  overflow-x: scroll;
+  padding: 12px;
+}
+pre::-webkit-scrollbar { height: 0 !important; width: 0 !important; }
+
+code {
+  background: #fff;
+  padding: 0 4px;
+}
+
+pre > code {
+  padding: 0;
 }
 
 h3 {
