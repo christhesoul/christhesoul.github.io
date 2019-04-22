@@ -47,4 +47,14 @@ The plot in a book is always obvious to the writer; every interweaving detail is
 
 Having your code reviewed and edited serves an identical purpose: it can eliminate clumsy mistakes, highlight areas where meaning seems vague, and provide suggestions that make the code's purpose clearer.
 
-*
+# If you love writing code, you'll love it enough to write as little of it as possible.
+
+(That one's from Jeff Atwood.)
+
+Regardless of how well written your code is, making changes is easier when there are fewer changes to make.
+
+Let me crystal clear: this is not about using reducing line lengths with abbreviated variable names or ternary operators. Shorthand is easier for some to write. It is certainly not easier for the majority to read.
+
+This is simply about doing less programming by making better decisions.
+
+Every product manager has a feature they wish they'd never shipped. Those features compound complexity on newer ones, slow down releases, and end up being resented by your entire team.
