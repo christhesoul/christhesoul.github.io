@@ -51,10 +51,10 @@ Having your code reviewed and edited serves an identical purpose: it can elimina
 
 (That one's from Jeff Atwood.)
 
-Regardless of how well written your code is, making changes is easier when there are fewer changes to make.
+Regardless of your code quality, making changes is easier when there are fewer changes to make. So write less code.
 
-Let me crystal clear: this is not about using reducing line lengths with abbreviated variable names or ternary operators. Shorthand is easier for some to write. It is certainly not easier for the majority to read.
+Let me be crystal clear: the act of reducing line lengths with abbreviated variable names or ternary operators is not the intended pursuit. Shorthand is easier for some to write. It is certainly not easier for the majority to read.
 
 This is simply about doing less programming by making better decisions.
 
-Every product manager has a feature they wish they'd never shipped. Those features compound complexity on newer ones, slow down releases, and end up being resented by your entire team.
+Every product manager has a feature they wish they'd never shipped. Those features compound complexity when building newer ones. They slow down releases. And ultimately end up being resented by your entire team.
