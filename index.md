@@ -27,6 +27,8 @@ People rarely write code that is deliberately _hard_ to read. It just happens wi
 
 And so we must write software well.
 
+It turns out that writing software well isn't too dissimilar from writing _anything_ well.
+
 Good writing is subjective but there are recurring themes:
 
 ### 1. Cut superfluous words
