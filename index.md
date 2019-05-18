@@ -57,4 +57,16 @@ Let me be crystal clear: the act of reducing line lengths with abbreviated varia
 
 This is simply about doing less programming by making better decisions.
 
-Every product manager has a feature they wish they'd never shipped. Those features compound complexity when building newer ones. They slow down releases. And ultimately end up being resented by your entire team.
+You can't make good decisions until you choose from a smorgasbord of solutions. And to assemble such a thing, you need to dive deep into understanding problems.
+
+# A problem is a difference between things as desired and things as perceived
+
+(That's from _Are Your Lights On?_ by Donald C. Gause and Gerald M. Weinberg.)
+
+You might think users _perceive_ your app to be slow. And they _desire_ much faster response times from the server.
+
+But what if your users perceive your app not to be slow, but _completely unresponsive_? All of a sudden, your problem is not about speed or performance – but simply about feedback and expectations.
+
+(To paraphrase the wonderful Rory Sutherland: everybody seems intent on building billion dollar high-speed trains, but who'd complain about a slower one serving free champage?)
+
+Relentlessly ask yourself _what is actually the problem_ and _whose problem is it_?
