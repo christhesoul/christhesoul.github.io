@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Why you should Seed well in Rails
 ---
 :seedling:

@@ -3,3 +3,10 @@ title: Chris Waters // @christhesoul
 layout: default
 plugins:
   - jemoji
+defaults:
+  -
+    scopes:
+      path: ""
+    values:
+      bg-color: 'lightest-blue'
+      layout: 'default'

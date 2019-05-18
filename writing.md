@@ -1,6 +1,6 @@
 ---
 title: Writing about Programming.
-layout: default
+headline: Writing about Programming.
 ---
 
 <ul class="list pl0">

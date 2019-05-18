@@ -1,6 +1,7 @@
 ---
 title: Contact
-layout: contact
+headline: Send a message.
+bg-color: light-pink
 ---
 If you read something you enjoyed, that helped you in some way, I'd love to hear from you.
 

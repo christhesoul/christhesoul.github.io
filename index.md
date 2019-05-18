@@ -1,6 +1,7 @@
 ---
 title: Chris Waters
-layout: home
+headline: Make the change easy. Then make the easy change.
+bg-color: yellow
 ---
 
 (That's a Kent Beck quote. It continues to resonate.)

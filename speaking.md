@@ -1,6 +1,7 @@
 ---
 title: Talking in code.
-layout: speaking
+headline: Talking in code.
+bg-color: light-red
 ---
 
 ## Reset yourself free
