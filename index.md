@@ -62,14 +62,56 @@ This is simply about doing less programming by making better decisions.
 
 You can't make good decisions until you choose from a smorgasbord of solutions. And to assemble such a thing, you need to dive deep into understanding problems.
 
-# A problem is a difference between things as desired and things as perceived
+# A problem is a difference between things as desired and things as perceived.
 
 (That's from _Are Your Lights On?_ by Donald C. Gause and Gerald M. Weinberg.)
 
 You might think users _perceive_ your app to be slow. And they _desire_ much faster response times from the server.
 
-But what if your users perceive your app not to be slow, but _completely unresponsive_? All of a sudden, your problem is not about speed or performance – but simply about feedback and expectations.
+But what if your users perceive your app not to be slow, but _completely unresponsive_? All of a sudden, your problem is not about speed or performance – but simply about feedback and expectations. It's no longer an engineering job, but a user interface one.
 
-(To paraphrase the wonderful Rory Sutherland: everybody seems intent on building billion dollar high-speed trains, but who'd complain about a slower one serving free champage?)
+If you can't write three possible solutions to any problem down, you probably haven't thought about the problem long enough. Really creative solutions come from _really_ interrogating the problem.
+
+(To paraphrase the wonderful Rory Sutherland: everybody seems intent on building billion dollar high-speed trains, but who'd complain about a slower one serving free champagne?)
 
 Relentlessly ask yourself _what is actually the problem_ and _whose problem is it_?
+
+# Stop treating your ideas so preciously. Make them real. Get in the dirt and work.
+
+(Love him or hate him, Gary Vaynerchuk speaks plenty of truth.)
+
+Understand the problem, decide on a solution, and then execute.
+
+Executing is hard because you often begin with a vision of the _end_. What you really need a clear vision of the _start_! The ability to decide on what to do first is a skill you have to develop.
+
+Predict too much too soon, and you just won't move. You'll paralyse yourself and your team.
+
+So get moving. Write a test. Share a document. Sketch an interface. Copy and paste some code.
+
+_Make_ a start.
+
+# No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first.
+
+(That one's from Andy Hunt, author of _The Pragmatic Programmer_.)
+
+The pursuit of perfection is crippling. I know. It is something I have wrestled with my entire career.
+
+In _The Score Takes Care of Itself_ Bill Walsh talks about awarding himself zero points for victory. He expected to win. He expected perfection. When he achieved it, he didn't celebrate because that was simply his baseline. And when he lost, he took points away. Eventually the maths catch up with you.
+
+I nearly cried reading that section of the book. For the first time somebody had articulated how I had been scoring my own work.
+
+Look after yourself. Accept you will fail. Celebrate your victories.
+
+# Dancing joyfully with the machine, just for the pleasure of the movements, is the love of my work. Utility is a distant second.
+
+(That's DHH. Creator of Ruby on Rails.)
+
+Writing software, building products, and growing businesses isn't easy. And there will be bad days. But the good days should outweigh the bad ones significantly.
+
+There is serious pleasure and satisfaction in building functional things that others can use.
+
+But a world full of function and no joy is not one I choose to live in.
+
+Nothing motivates me like finding joy in the thing I am doing. And when I'm motivated, I know I'll find a way to make the change easy.
+
+And then make the easy change.
