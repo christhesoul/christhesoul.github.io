@@ -11,6 +11,15 @@
                2px 3px 0 #fff;
 }
 
+.shadowish {
+  text-shadow: 1px 2px 0 #ffffffaa;
+}
+
+@media screen and (min-width: 60em) {
+  .ml--20-l {
+    margin-left: -20px;
+  }
+}
 
 p {
   line-height: 20px;
