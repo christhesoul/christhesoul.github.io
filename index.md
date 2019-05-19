@@ -60,7 +60,7 @@ Let me be crystal clear: the act of reducing line lengths with abbreviated varia
 
 This is simply about doing less programming by making better decisions.
 
-You can't make good decisions until you choose from a smorgasbord of solutions. And to assemble such a thing, you need to dive deep into understanding problems.
+You can't make good decisions until you can choose from a smorgasbord of solutions. And to assemble such a thing, you need to dive deep into understanding problems.
 
 # A problem is a difference between things as desired and things as perceived.
 
@@ -68,7 +68,7 @@ You can't make good decisions until you choose from a smorgasbord of solutions. 
 
 You might think users _perceive_ your app to be slow. And they _desire_ much faster response times from the server.
 
-But what if your users perceive your app not to be slow, but _completely unresponsive_? All of a sudden, your problem is not about speed or performance – but simply about feedback and expectations. It's no longer an engineering job, but a user interface one.
+But what if your users perceive your app not to be slow, but _completely unresponsive_? All of a sudden, your immediate problem is not about speed or performance – but simply about feedback and expectations. It's no longer an engineering job, but a user interface one.
 
 If you can't write three possible solutions to any problem down, you probably haven't thought about the problem long enough. Really creative solutions come from _really_ interrogating the problem.
 
@@ -82,7 +82,7 @@ Relentlessly ask yourself _what is actually the problem_ and _whose problem is i
 
 Understand the problem, decide on a solution, and then execute.
 
-Executing is hard because you often begin with a vision of the _end_. What you really need a clear vision of the _start_! The ability to decide on what to do first is a skill you have to develop.
+Executing is hard because you often begin with a vision of the _end_. What you really need is a clear vision of the _start_! The ability to decide on what to do first is a skill you have to develop.
 
 Predict too much too soon, and you just won't move. You'll paralyse yourself and your team.
 
