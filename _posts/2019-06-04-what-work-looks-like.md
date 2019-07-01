@@ -4,7 +4,7 @@ title: What works looks like
 :eyes:
 
 I don't have the book to hand right I'm now, but I know there's a section of
-Are Your Lights On that states:
+[Are Your Lights On](https://leanpub.com/areyourlightson) that states:
 
 > The solution to your current problem is simply the cause of the next.
 
@@ -32,7 +32,7 @@ Imposter syndrome kicks in.
 
 You know plenty of things about software engineering, but all of sudden start to feel like you don't really know that you know them at all.
 
-(If the above resonates, please watch the first three minutes of this talk by the brilliant Gary Bernhardt where he talks about Donald Rumsfeld's _known knowns_ speech.)
+(If the above resonates, please watch the first three minutes of [this talk](https://www.destroyallsoftware.com/talks/ideology) by the brilliant Gary Bernhardt where he talks about Donald Rumsfeld's _known knowns_ speech.)
 
 And so sometimes your entire day's work is going to look like this.
 
@@ -73,4 +73,4 @@ Watching a conference talk on YouTube that might be mildly related to your probl
 
 <br><br>
 
-<sup>1</sup> ([The only point of clocks and maps; the only point of looking back is to see how far we've come.](https://www.youtube.com/watch?v=6xRAjYYWgds))
+<sup>1</sup> The only point of clocks and maps; the only point of looking back is to [see how far we've come.](https://www.youtube.com/watch?v=6xRAjYYWgds)
