@@ -26,8 +26,8 @@ p {
 }
 
 blockquote {
-  background: #f7f7f7;
-  border-left: 3px solid #6b069e;
+  background: #FBF1A9;
+  border-left: 3px solid #FFB700;
   font-size: 16px;
   margin: 0;
   padding: 5px 25px;
@@ -51,6 +51,13 @@ code {
 
 pre > code {
   padding: 0;
+}
+
+hr {
+  background: #FFF;
+  border: 0;
+  border-bottom: 5px dashed #000;
+  margin: 40px 0;
 }
 
 h3 {
