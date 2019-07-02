@@ -10,23 +10,25 @@ I don't have the book to hand right I'm now, but I know there's a section of
 
 Or words to that effect.
 
-And navigating from problem to problem – or on a good day avoiding every next problem due to clever use of one's melon – is what I like to call _work_.
+And navigating from problem to problem – or, on a good day, swerving a nasty situation that could've manifested into a problem – is what I like to call _work_.
 
-Some people, of course, know every programming language, framework, tool, architectural paradigm and refactoring technique that's ever been invented. But ordinary folks like you and me don't.
+Finding the root cause of problems gets easier the more problems you deal with. You notice patterns in problems; they recall frustrations past. And you ultimately your gut knows where a problem is before the code can prove it. I think this useful cognitive datastore is what we call _experience_.
 
-So we have to go through The Struggle.
+Once found, solving the problem isn't always easy. But again it gets easier when you have a decent toolbelt of languages, tools, paradigms and refactoring techniques handy.
 
-And that's cool. Because one day _we didn't even know the stuff we know now_.<sup>1</sup>
+Failing that, you might be able to stick bits of existing knowledge together with a few Google searches and a spoonful of Stack Overflow copypasta.
 
-Sometimes we can stick bits of existing knowledge together with a few Google searches and a spoonful of Stack Overflow copypasta.
+But there will always be problems that don't appear like old foes through the saloon doors. They're entirely different beasts. And initially they render you helpless.
 
-But then sometimes you're faced with something really new.
+You don't know the answer. And if even somebody gave you the tool to fix it, you wouldn't know which end to hold.
 
 And that collides with something else that you don't have much experience in.
 
 All of a sudden it just feels overwhelming.
 
 Like _really_ overwhelming.
+
+And so we have to go through The Struggle.
 
 Imposter syndrome kicks in.
 
@@ -38,11 +40,13 @@ And so sometimes your entire day's work is going to look like this.
 
 ![A Github history of Webpacker with Circle](/assets/img/what-work-looks-like.png){:class="img-responsive"}
 
-And even this has a ridiculous Disney-esque happy ending to give you an unhealthy does of misplaced optimism. Because some days you won't even get that satisfying green tick at the end of the day indicating the code has successfully run every step in your CI build.
+And even this has a ridiculous Disney-esque happy ending to give you an unhealthy dose of misplaced optimism. Because some days you won't even get that satisfying green tick at the end of the day indicating the code has successfully run every step in your CI build.
 
 Some days you just fail.
 
-And that's okay. Failing is the act of not succeeding in what you're trying to achieve.
+That's cool. Because one day _we didn't even know the stuff we know now_.<sup>1</sup>
+
+And failing is the act of not succeeding in what you're trying to achieve.
 
 Which actually sounds pretty positive, in a strange way.
 
