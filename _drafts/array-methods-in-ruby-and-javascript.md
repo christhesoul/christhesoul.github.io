@@ -43,6 +43,9 @@ These methods return a new array based on the result of executing the code. So o
 
 ### .select in Ruby :arrow_right: .filter in Javascript
 
+These methods return a new array – but only with the values where the block or function returns `true`. With that in mind, both of these examples will return
+`[2, 4]`.
+
 #### Ruby
 ```ruby
 [1, 2, 3, 4].select { |n| n % 2 == 0 }
