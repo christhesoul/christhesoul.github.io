@@ -79,6 +79,3 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 3.8.4)
   jemoji
-
-BUNDLED WITH
-   1.16.2

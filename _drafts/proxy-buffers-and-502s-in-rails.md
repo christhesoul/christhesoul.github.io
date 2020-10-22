@@ -19,7 +19,7 @@ Now the problem is that because the Rails application isn't _failing_ per se, yo
 
 What we need here is to dig into the Nginx logs to see what's happening.
 
-Now, I feel very uncomfortable digging around in servers, so the prospect of trying to find these Nginx logs fills me dread. But finding them will be the fast route to solving this problem.
+Now, I feel very uncomfortable digging around in servers, so the prospect of trying to find these Nginx logs fills me with dread. But finding them will be the fast route to solving this problem.
 
 My fear is exacerbated when I remember that we are using a magical Docker tool called `nginx_proxy`. This sets up a Docker container running Nginx and reloads Nginx when other containers are started and stopped.
 
