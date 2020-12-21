@@ -55,6 +55,8 @@ You need 2,000 addresses in your network, so you have no choice to but to plump 
 
 You get your network up and running, and forget about the 63k IP addresses that are unused.
 
+This seems pretty wasteful, but hindsight is a wonderful thing. Prior to this idea of big / medium / small networks – called Classful Networks – being introduced in 1981 (yep, that long ago), there only existed big networks.
+
 Now, if you're very mathematically astute, you may have noticed a pattern in those address numbers:
 
 <table>

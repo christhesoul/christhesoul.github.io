@@ -23,4 +23,6 @@ Now, I feel very uncomfortable digging around in servers, so the prospect of try
 
 My fear is exacerbated when I remember that we are using a magical Docker tool called `nginx_proxy`. This sets up a Docker container running Nginx and reloads Nginx when other containers are started and stopped.
 
-Which is brilliant. But where are my logs?
+Which is brilliant. But we have a 502. So something's not right.
+
+nginx.1    | 2020/12/02 17:12:18 [error] 30#30: *1 upstream sent too big header while reading response header from upstream, client: 213.31.49.228, server: *.innstyle.beta.innbuild.co, request: "GET / HTTP/2.0", upstream: "http://172.17.0.4:3000/", host: "theoldfrog.innstyle.beta.innbuild.co"
