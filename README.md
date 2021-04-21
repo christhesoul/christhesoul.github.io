@@ -1,2 +1,3 @@
-# christhesoul.github.io
-Trumpet-blowing codestorm
+# christhesoul.com
+
+An infrequently-updated personal website.
