@@ -1,5 +1,5 @@
 ---
-title: Chris Waters
+title: Make the change easy
 headline: Make the change easy. Then make the easy change.
 bg-color: yellow
 ---
