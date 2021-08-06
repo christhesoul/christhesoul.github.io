@@ -32,4 +32,6 @@ Perhaps not. But to those negative thoughts I might have to start saying “Buck
 
 Buckingham Palace. I didn’t design it, or build it. I don’t own it or live there. I can’t give you the complete history of it. I’ve never been inside, and probably never will.
 
-But if I made the effort to show it to you, then even if you find it dull, you might at some point in the future be grateful I bothered to show it to you at all.
+The same goes for my writing. It's unlikely to be a brilliant original thought or groundbreaking technical idea. Plenty of people may have written similar things before. Their version may be a whole lot more interesting or comprehensive.
+
+But I must remember to make the effort. Because perhaps my take on it just might be the one that resonates.
