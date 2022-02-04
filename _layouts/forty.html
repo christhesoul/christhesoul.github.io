@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">      
+      body {
+        font-family: Helvetica, Arial, sans-serif
+      }
+
+      .board {
+        width: 310px;
+        margin: auto;
+      }
+
+      .game {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 5px;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
+      .turn {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 5px;
+      }
+
+      .tile {
+        width: 54px;
+        height: 54px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: bold;
+        vertical-align: middle;
+        box-sizing: border-box;
+        color: var(--tile-text-color);
+        text-transform: uppercase;
+        color: white;
+      }
+
+      .absent {
+        background: rgb(120, 124, 126);
+      }
+
+      .present {
+        background: rgb(201, 180, 88);
+      }
+
+      .correct {
+        background: rgb(106, 170, 100);
+      }
+
+      p {
+        padding-left: 10px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="board">
+      <div class="game">
+        <div class="turn">
+          <div class="tile absent">C</div>
+          <div class="tile absent">H</div>
+          <div class="tile correct">R</div>
+          <div class="tile absent">I</div>
+          <div class="tile absent">S</div>
+        </div>
+        <div class="turn">
+          <div class="tile present">T</div>
+          <div class="tile absent">U</div>
+          <div class="tile correct">R</div>
+          <div class="tile absent">N</div>
+          <div class="tile absent">S</div>
+        </div>
+        <div class="turn">
+          <div class="tile absent">F</div>
+          <div class="tile absent">O</div>
+          <div class="tile correct">R</div>
+          <div class="tile correct">T</div>
+          <div class="tile correct">Y</div>
+        </div>
+        <div class="turn">
+          <div class="tile correct">P</div>
+          <div class="tile correct">A</div>
+          <div class="tile correct">R</div>
+          <div class="tile correct">T</div>
+          <div class="tile correct">Y</div>
+        </div>
+      </div>
+      <p>
+        Thursday* 13th April 2022<br>
+        7.30pm&mdash;midnight
+      <p>
+        <small>
+          Woodbridge Football Club<br>
+          17 Fynn Rd, Martlesham<br>
+          Woodbridge IP12 4LS
+        </small>
+      </p>
+      <p><small>* It's the Thursday before Good Friday</small></p>
+    </div>
+  </body>
+</html>

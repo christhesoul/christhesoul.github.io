@@ -1,0 +1,4 @@
+---
+title: Forty
+layout: forty
+---
